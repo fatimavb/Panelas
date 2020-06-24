@@ -12,8 +12,17 @@ body {
 #logotipo {
     width: 90px;
     margin: 20px;
+    text-align: center;
+    font-size: 4em;
 }
-
+.caixa {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    font-size: 4em;
+    font-family: serif;
+        color: #B22222;
+}
 
 #menu {
     background-color: #B22222;
